@@ -13,7 +13,7 @@ int main(void)
     {
         pennies = get_int("Number of pennies to start: ");
     }
-    while(pennies <= 0);
+    while (pennies <= 0);
 
     // Get the number of days in a the month, must be a value between 28 and 31
     int days;
@@ -21,7 +21,7 @@ int main(void)
     {
         days = get_int("Number of days in the month: ");
     }
-    while(days < 28 || days > 31);
+    while (days < 28 || days > 31);
 
     // Double the number of pennies each day in the month
     pennies = pennies * pow(2, days);
