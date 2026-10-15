@@ -26,5 +26,6 @@
     }
 
     // Print the average
+    // Typecast n to a float for division
     printf("Average: %0.2f%%\n", sum / (float) n);
  }
