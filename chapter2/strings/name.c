@@ -11,6 +11,7 @@ int main(void)
     string name = get_string("Full name: ");
 
     // Count the number of char before the first space
+    // "Searching for the first space"
     for (int i = 0; i < strlen(name); i++)
     {
         if (name[i] == ' ')
