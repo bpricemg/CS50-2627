@@ -1,5 +1,5 @@
 /**
- * Say hello to a user if they provide their first name
+ * Say hello to a user if they provide their name
  * in the command line
  */
 #include <cs50.h>
