@@ -85,7 +85,7 @@ int main(int argc, string argv[])
     // Print out the preferences array
     for (int i = 0; i < voter_count; i++)
     {
-        for (int j = 0; candidate_count; j++)
+        for (int j = 0; j < candidate_count; j++)
         {
             printf("%i\t", prefrences[i][j]);
         }
