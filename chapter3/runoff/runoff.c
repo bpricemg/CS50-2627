@@ -87,7 +87,7 @@ int main(int argc, string argv[])
     {
         for (int j = 0; j < candidate_count; j++)
         {
-            printf("%i\t", prefrences[i][j]);
+            printf("%i\t", preferences[i][j]);
         }
         printf("\n");
     }
